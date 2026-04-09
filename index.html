@@ -60,32 +60,46 @@
   <!-- ====== FAVICON ====== -->
   <link rel="icon" type="image/jpg" href="/assets/about-Cl5hgwtG.png" />
 
-<!-- ====== Structured Data: Person (Google Knowledge Panel) ====== -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Manuja Dayawansha",
-  "alternateName": [
-    "Manuja Dayawansa",
-    "ManujaDayawansha",
-    "Manuja"
-  ],
-  "description": "Web developer, creative technologist, and graphic designer specializing in modern web projects, Firebase apps, and digital tools.",
-  "image": "https://www.manuja.run.place/assets/about-Cl5hgwtG.png",
-  "nationality": "Sri Lankan",
-  "url": "https://www.manuja.run.place/",
-  "sameAs": [
-    "https://github.com/manuja7",
-    "https://www.behance.net/ManujaDayawansha",
-    "https://www.linkedin.com/in/manuja-dayawansa/",
-    "https://www.facebook.com/ManujaDayawansha.me/",
-    "https://www.instagram.com/manuja78dayawansa/"
-  ],
-  "jobTitle": [
-    "Web Developer",
-    "Graphic Designer",
-    "Software Developer"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.manuja.run.place/#website",
+      "url": "https://www.manuja.run.place/",
+      "name": "Manuja Dayawansha",
+      "description": "Web developer, creative technologist, and graphic designer specializing in modern web projects, Firebase apps, and digital tools.",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://www.manuja.run.place/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.manuja.run.place/#person",
+      "name": "Manuja Dayawansha",
+      "url": "https://www.manuja.run.place/",
+      "image": "https://www.manuja.run.place/assets/about-Cl5hgwtG.png",
+      "description": "Web developer, creative technologist, and graphic designer.",
+      "nationality": {
+        "@type": "Country",
+        "name": "Sri Lankan"
+      },
+      "jobTitle": [
+        "Web Developer",
+        "Graphic Designer",
+        "Software Developer"
+      ],
+      "sameAs": [
+        "https://github.com/manuja7",
+        "https://www.behance.net/ManujaDayawansha",
+        "https://www.linkedin.com/in/manuja-dayawansa/",
+        "https://www.facebook.com/ManujaDayawansha.me/",
+        "https://www.instagram.com/manuja78dayawansa/"
+      ]
+    }
   ]
 }
 </script>
