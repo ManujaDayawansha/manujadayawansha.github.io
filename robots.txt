@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.manuja.run.place/sitemap.xml
+Sitemap: https://www.manuja.run.place/posts.xml
